@@ -1,5 +1,4 @@
-docker run -d --name onnx-milr \
-    -p 3001:3000/tcp \
-    -v /Users/mecom/code/ai/engine-backend:/external \
+docker run -d --name tf \
+    -v /Users/mecom/code/tf:/code \
     -it tf:v1 \
     /bin/bash 
